@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<visualInterface:Symbol xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:visualInterface="http://eclipse.org/SCADA/VisualInterface">
+  <root xsi:type="visualInterface:BorderContainer">
+    <children alignment="TOP">
+      <element xsi:type="visualInterface:SymbolReference" uri="../header.vi" onCreateProperties="makeHeaderProperties();"/>
+    </children>
+    <children>
+      <element xsi:type="visualInterface:FigureContainer" backgroundColor="#FFFFFF" opaque="true">
+        <content xsi:type="visualInterface:GridContainer">
+          <children>
+            <element xsi:type="visualInterface:Text" text="Temperatura"/>
+          </children>
+          <children>
+            <element xsi:type="visualInterface:Text" text="Stanje rasvjete "/>
+          </children>
+          <children>
+            <element xsi:type="visualInterface:Text" text="Vatrodojava"/>
+          </children>
+        </content>
+      </element>
+    </children>
+  </root>
+  <scriptModules>../../common/common.js</scriptModules>
+  <scriptModules>../../common/colors.js</scriptModules>
+  <scriptModules>../../common/detailDialog.js</scriptModules>
+  <scriptModules>../../common/items.js</scriptModules>
+  <scriptModules>senzor.js</scriptModules>
+</visualInterface:Symbol>

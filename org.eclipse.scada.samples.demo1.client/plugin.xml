@@ -664,10 +664,25 @@
       <viewInstance
             defaultInstance="true"
             factoryClass="org.eclipse.scada.vi.ui.user.VisualInterfaceFactory"
+            id="org.eclipse.scada.samples.demo1.client.prviSprat"
+            mainView="true"
+            name="Prvi sprat"
+            order="30"
+            resource="resources/views/prviSprat.vi"
+            zooming="false">
+         <visibility>
+            <reference
+                  definitionId="org.eclipse.scada.samples.demo1.client.hassession">
+            </reference>
+         </visibility>
+      </viewInstance>
+      <viewInstance
+            defaultInstance="true"
+            factoryClass="org.eclipse.scada.vi.ui.user.VisualInterfaceFactory"
             id="org.eclipse.scada.samples.demo1.client.prizemlje"
             mainView="true"
             name="Prizemlje"
-            order="30"
+            order="40"
             resource="resources/views/prizemlje.vi"
             zooming="false">
          <visibility>
@@ -682,7 +697,7 @@
             id="org.eclipse.scada.samples.demo1.client.borders"
             mainView="true"
             name="Borders"
-            order="40"
+            order="50"
             resource="resources/views/borders.vi">
       </viewInstance>
       <viewInstance
@@ -691,7 +706,7 @@
             id="org.eclipse.scada.samples.demo1.client.shapes"
             mainView="true"
             name="Shapes"
-            order="50"
+            order="60"
             resource="resources/views/shapes.vi">
       </viewInstance>
    </extension>

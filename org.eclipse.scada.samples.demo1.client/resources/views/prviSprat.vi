@@ -2,7 +2,7 @@
 <visualInterface:Symbol xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:visualInterface="http://eclipse.org/SCADA/VisualInterface" backgroundColor="#FFFFFF">
   <root xsi:type="visualInterface:XYContainer">
     <children>
-      <element xsi:type="visualInterface:Image" opaque="false" uri="../images/drugi_sprat_-_etf_-_tk1.jpg" imageAlignment="LEFT"/>
+      <element xsi:type="visualInterface:Image" opaque="false" uri="../images/prvi_sprat.jpg" imageAlignment="LEFT"/>
       <position x="250.0" y="10.0"/>
     </children>
     <children>
@@ -10,19 +10,19 @@
         <children alignment="TOP">
           <element xsi:type="visualInterface:GridContainer" columns="2" horizontalSpacing="30">
             <children verticalAlignment="FILL">
-              <element xsi:type="visualInterface:Text" text="Drugi sprat" fontSize="15" fontBold="true"/>
+              <element xsi:type="visualInterface:Text" text="Prvi sprat" fontSize="15" fontBold="true"/>
             </children>
           </element>
         </children>
       </element>
     </children>
     <children>
-      <element xsi:type="visualInterface:SymbolReference" uri="../symbols/Lab2-29/senzor.vi">
-        <properties key="title" value="Lab 2-29"/>
+      <element xsi:type="visualInterface:SymbolReference" uri="../symbols/senzor/senzor.vi">
+        <properties key="title" value="Senzor"/>
         <properties key="prefix" value="ES.DEMO.ARDUINO001"/>
       </element>
-      <position x="1015.0" y="80.0"/>
-      <dimension width="105.0" height="-1.0"/>
+      <position x="10.0" y="50.0"/>
+      <dimension width="200.0" height="-1.0"/>
     </children>
   </root>
   <properties key="connection" value="connection.da.main"/>

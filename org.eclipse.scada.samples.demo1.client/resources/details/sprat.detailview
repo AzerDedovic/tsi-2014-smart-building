@@ -3,17 +3,22 @@
   <headerComponent xsi:type="detailView:TextComponent" format="Summary" descriptor="$connection$#$sumItem$"/>
   <groups label="Overview">
     <component xsi:type="detailView:GroupGridComponent">
-      <groups label="Measured Data">
-        <components xsi:type="detailView:TextComponent" format="Light" hdConnectionId="$hdConnection$" hdItemId="$prefix$.LIGHT.V" hdQueryString="86400000:600000:0:2000" descriptor="$connection$#$prefix$.LIGHT.V"/>
-        <components xsi:type="detailView:TextComponent" format="Temperature (°C)" hdConnectionId="$hdConnection$" hdItemId="$prefix$.TEMPERATURE.V" hdQueryString="86400000:600000:0:50" descriptor="$connection$#$prefix$.TEMPERATURE.V"/>
-        <components xsi:type="detailView:TextComponent" format="Humidity (%)" hdConnectionId="$hdConnection$" hdItemId="$prefix$.HUMIDITY.V" hdQueryString="86400000:600000:0:100" descriptor="$connection$#$prefix$.HUMIDITY.V"/>
+      <groups label="Mjerene vrijednosti">
+        <components xsi:type="detailView:TextComponent" format="Rasvjeta" attribute="" hdConnectionId="$hdConnection$" hdItemId="$prefix$.LIGHT.V" hdQueryString="86400000:600000:0:2000" descriptor="$connection$#$prefix$.LIGHT.V"/>
+        <components xsi:type="detailView:TextComponent" format="Temperatura (°C)" decimal="" hdConnectionId="$hdConnection$" hdItemId="$prefix$.TEMPERATURE.V" hdQueryString="86400000:600000:0:50" descriptor="$connection$#$prefix$.TEMPERATURE.V"/>
+        <components xsi:type="detailView:TextComponent" format="Vatrodojava" hdConnectionId="$hdConnection$" hdItemId="$prefix$.HUMIDITY.V" hdQueryString="86400000:600000:0:100" descriptor="$connection$#$prefix$.HUMIDITY.V"/>
       </groups>
-      <groups label="Control">
-        <components xsi:type="detailView:ButtonComponent" format="Light On" value="BOOLEAN#true" writeDescriptor="$connection$#$prefix$.CUBE.C"/>
-        <components xsi:type="detailView:ButtonComponent" format="Light Off" value="BOOLEAN#false" writeDescriptor="$connection$#$prefix$.CUBE.C"/>
+      <groups label="Kontrolni dugmići">
+        <components xsi:type="detailView:ButtonComponent" format="Rasvjeta On" value="BOOLEAN#true" writeDescriptor="$connection$#$prefix$.CUBE.C"/>
+        <components xsi:type="detailView:ButtonComponent" format="Rasvjeta Off" value="BOOLEAN#false" writeDescriptor="$connection$#$prefix$.CUBE.C"/>
+        <components xsi:type="detailView:ButtonComponent" format="Grijanje On" writeDescriptor="$connection$#$prefix$.CUBE.C"/>
+        <components xsi:type="detailView:ButtonComponent" format="Grijanje Off" writeDescriptor="$connection$#$prefix$.CUBE.C"/>
       </groups>
-      <groups label="SlikaSenzora">
-        <components xsi:type="detailView:URLImageComponent" imageUrl="" fallbackImageUrl="http://static.dezeen.com/uploads/2010/11/dzn_-Efficient-Home-by-Mathieu-Lehanneur-for-Schneider-Electric-6.jpg" width="640" height="480" reloadTimer="1000"/>
+      <groups label="Sistem grijanja">
+        <components xsi:type="detailView:URLImageComponent" imageUrl="" fallbackImageUrl="http://ecx.images-amazon.com/images/I/31wLWKMyktL._SY300_.jpg" width="350" height="350" reloadTimer="1000"/>
+      </groups>
+      <groups label="Sistem rasvjete ">
+        <components xsi:type="detailView:URLImageComponent" imageUrl="" fallbackImageUrl="http://ecx.images-amazon.com/images/I/31wLWKMyktL._SY300_.jpg" width="350" height="350" reloadTimer="1000"/>
       </groups>
     </component>
   </groups>
