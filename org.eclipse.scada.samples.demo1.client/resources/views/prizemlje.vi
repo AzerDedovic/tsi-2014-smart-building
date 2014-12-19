@@ -3,7 +3,7 @@
   <root xsi:type="visualInterface:XYContainer">
     <children>
       <element xsi:type="visualInterface:Image" opaque="false" uri="../images/prizemlje.png" imageAlignment="LEFT"/>
-      <position x="250.0" y="10.0"/>
+      <position x="10.0" y="40.0"/>
     </children>
     <children>
       <element xsi:type="visualInterface:BorderContainer">
@@ -15,14 +15,7 @@
           </element>
         </children>
       </element>
-    </children>
-    <children>
-      <element xsi:type="visualInterface:SymbolReference" uri="../symbols/senzor/senzor.vi">
-        <properties key="title" value="Senzor"/>
-        <properties key="prefix" value="ES.DEMO.ARDUINO001"/>
-      </element>
-      <position x="10.0" y="50.0"/>
-      <dimension width="200.0" height="-1.0"/>
+      <position x="5.0"/>
     </children>
   </root>
   <properties key="connection" value="connection.da.main"/>

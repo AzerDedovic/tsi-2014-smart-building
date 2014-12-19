@@ -2,8 +2,8 @@
 <visualInterface:Symbol xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:visualInterface="http://eclipse.org/SCADA/VisualInterface" backgroundColor="#FFFFFF">
   <root xsi:type="visualInterface:XYContainer">
     <children>
-      <element xsi:type="visualInterface:Image" opaque="false" uri="../images/drugi_sprat_-_etf_-_tk1.jpg" imageAlignment="LEFT"/>
-      <position x="250.0" y="10.0"/>
+      <element xsi:type="visualInterface:Image" opaque="false" uri="../images/DrugiSprat.png" imageAlignment="LEFT"/>
+      <position x="10.0" y="40.0"/>
     </children>
     <children>
       <element xsi:type="visualInterface:BorderContainer">
@@ -15,14 +15,15 @@
           </element>
         </children>
       </element>
+      <position x="5.0"/>
     </children>
     <children>
       <element xsi:type="visualInterface:SymbolReference" uri="../symbols/Lab2-29/senzor.vi">
         <properties key="title" value="Lab 2-29"/>
         <properties key="prefix" value="ES.DEMO.ARDUINO001"/>
       </element>
-      <position x="1015.0" y="80.0"/>
-      <dimension width="105.0" height="-1.0"/>
+      <position x="642.0" y="388.0"/>
+      <dimension width="100.0" height="-1.0"/>
     </children>
   </root>
   <properties key="connection" value="connection.da.main"/>

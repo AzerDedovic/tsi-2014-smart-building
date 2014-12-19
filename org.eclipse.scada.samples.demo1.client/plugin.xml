@@ -676,6 +676,15 @@
             </reference>
          </visibility>
       </viewInstance>
+       <viewInstance
+            defaultInstance="false"
+            factoryClass="org.eclipse.scada.vi.ui.user.VisualInterfaceFactory"
+            id="org.eclipse.scada.samples.demo1.client.treciSprat"
+            mainView="true"
+            name="TreciSprat"
+            order="60"
+            resource="resources/views/treciSprat.vi">
+      </viewInstance>
       <viewInstance
             defaultInstance="true"
             factoryClass="org.eclipse.scada.vi.ui.user.VisualInterfaceFactory"
