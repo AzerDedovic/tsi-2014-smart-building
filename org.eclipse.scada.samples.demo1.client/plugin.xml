@@ -647,12 +647,21 @@
          </visibility>
       </viewInstance>
       <viewInstance
+            defaultInstance="false"
+            factoryClass="org.eclipse.scada.vi.ui.user.VisualInterfaceFactory"
+            id="org.eclipse.scada.samples.demo1.client.treciSprat"
+            mainView="true"
+            name="TreciSprat"
+            order="20"
+            resource="resources/views/treciSprat.vi">
+      </viewInstance>
+      <viewInstance
             defaultInstance="true"
             factoryClass="org.eclipse.scada.vi.ui.user.VisualInterfaceFactory"
             id="org.eclipse.scada.samples.demo1.client.drugiSprat"
             mainView="true"
             name="Drugi sprat"
-            order="20"
+            order="30"
             resource="resources/views/drugiSprat.vi"
             zooming="false">
          <visibility>
@@ -667,7 +676,7 @@
             id="org.eclipse.scada.samples.demo1.client.prviSprat"
             mainView="true"
             name="Prvi sprat"
-            order="30"
+            order="40"
             resource="resources/views/prviSprat.vi"
             zooming="false">
          <visibility>
@@ -676,22 +685,13 @@
             </reference>
          </visibility>
       </viewInstance>
-       <viewInstance
-            defaultInstance="false"
-            factoryClass="org.eclipse.scada.vi.ui.user.VisualInterfaceFactory"
-            id="org.eclipse.scada.samples.demo1.client.treciSprat"
-            mainView="true"
-            name="TreciSprat"
-            order="60"
-            resource="resources/views/treciSprat.vi">
-      </viewInstance>
-      <viewInstance
+             <viewInstance
             defaultInstance="true"
             factoryClass="org.eclipse.scada.vi.ui.user.VisualInterfaceFactory"
             id="org.eclipse.scada.samples.demo1.client.prizemlje"
             mainView="true"
             name="Prizemlje"
-            order="40"
+            order="50"
             resource="resources/views/prizemlje.vi"
             zooming="false">
          <visibility>
@@ -706,7 +706,7 @@
             id="org.eclipse.scada.samples.demo1.client.borders"
             mainView="true"
             name="Borders"
-            order="50"
+            order="60"
             resource="resources/views/borders.vi">
       </viewInstance>
       <viewInstance
@@ -715,7 +715,7 @@
             id="org.eclipse.scada.samples.demo1.client.shapes"
             mainView="true"
             name="Shapes"
-            order="60"
+            order="70"
             resource="resources/views/shapes.vi">
       </viewInstance>
    </extension>
